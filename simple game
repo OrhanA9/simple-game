@@ -1,0 +1,27 @@
+import pygame
+import random
+player__height=50
+player__x=500
+player__y=100
+player_widht=50
+platformlist=[]
+for i in range(5):
+    platform-x = random.randint(0, w-WIDHT -P-widht)              
+     Platform-y = random.randint(0, w-HEIGHT -p-height)
+platformlist.append(pygame.Rect(platform-x,platform-y,platform_widht,platform_height))
+game-running=True
+while game-running:                                                                                                               
+for events in pygame.event.get():
+    if pygame.event ==pygame.QUIT:
+         game-running=false
+key = pygame.key.get_pressed()
+if key[pygame.K_LEFT]:
+player__x -= 5
+if key[pygame.K_RIGHT]
+
+player__y += 1
+if player__y >600:
+game_running=False
+blue=(0, 0, 255)
+black=(0),0),0,
+for platform
